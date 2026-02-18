@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Harish ❤️ Supriya</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#fffafc;
+    color:#444;
+}
+
+/* HERO */
+.hero{
+    height:100vh;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+    animation:fadeIn 2s ease;
+}
+
+.hero h1{
+    font-size:3rem;
+    letter-spacing:2px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:1.2rem;
+    opacity:0.9;
+}
+
+/* SECTIONS */
+section{
+    padding:70px 25px;
+    text-align:center;
+}
+
+/* STORY */
+.story{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+/* GALLERY */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.card p{
+    padding:18px;
+    font-weight:500;
+}
+
+/* MESSAGE */
+.message{
+    background:#ffe6eb;
+}
+
+.message h2{
+    color:#e75480;
+    margin-bottom:20px;
+}
+
+/* FOOTER */
+.footer{
+    padding:40px;
+    font-size:0.9rem;
+    color:#888;
+}
+
+/* ANIMATION */
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(30px);}
+    to{opacity:1; transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Harish ❤️ Supriya</h1>
+    <p>A journey made of memories, moments and love.</p>
+</div>
+
+<!-- STORY -->
+<section class="story">
+    <p>
+        And there are so many precious memories that aren't expressed by words.
+        I still remember the day I saw you first. It was the day you became our CR.
+        You were just wearing a college uniform and came out of your bench and stood there.
+    </p>
+
+    <p>
+        That day I didn't know that you are the one who would play such an important role in my life.
+        I didn't know that I would love you more than myself and anyone else.
+    </p>
+
+    <p>
+        The day we first travelled together was also the day we fell in love completely.
+        It is truly one of the best memories of us.
+    </p>
+
+    <p>
+        That day I was really super excited to travel with you.
+        It was my first time travelling with another person.
+    </p>
+</section>
+
+<!-- MEMORIES -->
+<section>
+<h2>Our Memories</h2>
+<div class="gallery">
+
+<div class="card">
+<img src="images/bike.jpg">
+<p>The day we travelled one whole night together.</p>
+</div>
+
+<div class="card">
+<img src="images/mirror.jpg">
+<p>The day we both went for shopping.</p>
+</div>
+
+<div class="card">
+<img src="images/rain.jpg">
+<p>A moment that didn't need words — just us.</p>
+</div>
+
+<div class="card">
+<img src="images/farewell.jpg">
+<p>The farewell day.</p>
+</div>
+
+</div>
+</section>
+
+<!-- FINAL MESSAGE -->
+<section class="message">
+<h2>My dear kanna!</h2>
+
+<p>
+Till now we had lots of memories together and I just want you to recall them too.
+That's why I made this surprise for you.
+</p>
+
+<br>
+
+<p>
+We came through many ups and downs and finally we came to a stage
+where we can't live without each other.
+</p>
+</section>
+
+<div class="footer">
+Made with love.
+</div>
+
+</body>
+</html>
